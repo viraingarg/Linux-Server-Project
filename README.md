@@ -6,8 +6,7 @@
 
 ### Steps to performe for the complete running of the project:
 
-   * Steps performed.
-    * You Must be logged into your Amazon Web Services account.
+   * You Must be logged into your Amazon Web Services account.
     * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
     * Download the default key-pair and copy to /.ssh folder.
     * Open your terminal and type in chmod 600 ~/.ssh/key.pem
@@ -77,7 +76,7 @@
     app.run()
     ```
 
-    * `sudo apt-get install python-pip`
+   * `sudo apt-get install python-pip`
     * `sudo pip install virtualenv `
     * `sudo virtualenv venv`
     * `sudo chmod -R 777 venv`
@@ -108,7 +107,7 @@
     </VirtualHost>
     ```
 
-    * save file(nano: `ctrl+x`, `Y`, Enter)
+   * save file(nano: `ctrl+x`, `Y`, Enter)
     * Enable `sudo a2ensite catalog`
     * `cd /var/www/catalog`
     * `sudo nano catalog.wsgi`
@@ -124,7 +123,7 @@
   application.secret_key = 'Add your secret key'
   ```
 
-    * save file(nano: `ctrl+x`, `Y`, Enter)
+   * save file(nano: `ctrl+x`, `Y`, Enter)
     * `sudo service apache2 restart`
     * `sudo git clone https://github.com/viraingarg/Item-Catalog-Project`
     * make sure you get hidden files iin move `shopt -s dotglob`. Move files from clone directory to catalog `mv /var/www/catalog/item-catalog/* /var/www/catalog/catalog/`
