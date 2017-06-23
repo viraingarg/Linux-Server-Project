@@ -6,7 +6,7 @@
 
 ### Steps to performe for the complete running of the project:
 
-   *Steps
+   * Steps performed.
     * You Must be logged into your Amazon Web Services account.
     * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
     * Download the default key-pair and copy to /.ssh folder.
