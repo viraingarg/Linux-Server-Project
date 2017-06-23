@@ -7,9 +7,9 @@ Notes for reviewer:
 * Full project URL:[link](http://ec2-13-126-156-68.ap-south-1.compute.amazonaws.com/)
 
 
-### Steps to performe for the complete running of the project:
+###Steps to performe for the complete running of the project:
 
-    * You Must be logged into your Amazon Web Services account.
+    *You Must be logged into your Amazon Web Services account.
     * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
     * Download the default key-pair and copy to /.ssh folder.
     * Open your terminal and type in chmod 600 ~/.ssh/key.pem
